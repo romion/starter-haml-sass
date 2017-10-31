@@ -10,8 +10,7 @@ haml = require('gulp-haml'),
     notify = require('gulp-notify'),
     rename = require('gulp-rename'),
     sass = require('gulp-ruby-sass'),
-    uglify = require('gulp-uglify'),
-    vendor = require('gulp-concat-vendor');
+    uglify = require('gulp-uglify');
 
 
 gulp.task('pages', function () {
